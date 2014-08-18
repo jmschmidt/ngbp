@@ -1,9 +1,12 @@
 angular.module( 'ngBoilerplate', [
   'templates-app',
   'templates-common',
+  'ngBoilerplate.header',
+  'ngBoilerplate.footer',
   'ngBoilerplate.home',
   'ngBoilerplate.about',
-  'ui.router'
+  'ui.router',
+  'ngAnimate'
 ])
 
 .config( function myAppConfig ( $stateProvider, $urlRouterProvider ) {
