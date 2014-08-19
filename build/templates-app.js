@@ -327,6 +327,18 @@ angular.module("header/header.tpl.html", []).run(["$templateCache", function($te
     "            What is it?\n" +
     "          </a>\n" +
     "        </li>\n" +
+    "        <li class=\"dropdown\">\n" +
+    "          <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Dropdown <span class=\"caret\"></span></a>\n" +
+    "          <ul class=\"dropdown-menu\" role=\"menu\">\n" +
+    "            <li><a href=\"#\">Action</a></li>\n" +
+    "            <li><a href=\"#\">Another action</a></li>\n" +
+    "            <li><a href=\"#\">Something else here</a></li>\n" +
+    "            <li class=\"divider\"></li>\n" +
+    "            <li><a href=\"#\">Separated link</a></li>\n" +
+    "            <li class=\"divider\"></li>\n" +
+    "            <li><a href=\"#\">One more separated link</a></li>\n" +
+    "          </ul>\n" +
+    "        </li>\n" +
     "      </ul>\n" +
     "    </div>\n" +
     "  </div>\n" +
