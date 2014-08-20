@@ -5,7 +5,9 @@ angular.module( 'ngBoilerplate', [
   'ngBoilerplate.footer',
   'ngBoilerplate.home',
   'ngBoilerplate.about',
+  'ngBoilerplate.projects',
   'ui.router',
+  'ui.router.stateHelper',
   'ngAnimate'
 ])
 
